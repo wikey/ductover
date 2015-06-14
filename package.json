@@ -1,0 +1,14 @@
+{
+    "name": "ductover",
+    "version": "0.0.0",
+    "dependencies": {},
+    "devDependencies": {
+	"react": "^0.13.3",
+	"react-tools": "^0.13.3",
+	"jquery": "1.11.x",
+	"bootstrap": "^3.3.4"
+    },
+    "engines": {
+	"node": ">=0.10.0"
+    }
+}
