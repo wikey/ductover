@@ -1,5 +1,7 @@
 # ductover
 
+[![Build Status](https://travis-ci.org/garrison/ductover.svg)](https://travis-ci.org/garrison/ductover)
+
 To build:
 
     $ npm install
