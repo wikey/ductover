@@ -177,7 +177,7 @@ function transform1(resource_json) {
             } else if (_side.fqn == "{http://wikiotics.org/ns/2009/picture}picture") {
                 sides.push({type: "picture", url: resolve_urn(_href) + "?view=image&max_size=250,250"});
             } else if (_side.fqn == "{http://wikiotics.org/ns/2010/audio}audio") {
-                sides.push({type: "audio", url: ""});
+                sides.push({type: "audio", url: resolve_urn(_href) + "?view=audio"});
             } else {
                 sides.push({type: "unknown"});
             }
