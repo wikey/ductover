@@ -11,7 +11,7 @@ var PictureChoiceElement = React.createClass({
         } else if (elt.type == "picture") {
             return <div><img src={elt.url}/></div>;
         } else if (elt.type == "audio") {
-            return <div className="btn btn-default"><i className="fa fa-play"></i>&nbsp; (audio)</div>;
+            return <audio id="promptAudio" preload="auto" controls src={elt.url}></audio>
         } else {
             return <div/>;
         }
