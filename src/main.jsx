@@ -255,4 +255,4 @@ var PictureChoiceApp = React.createClass({
     }
 });
 
-React.render(<PictureChoiceApp />, document.getElementById("app"));
+ReactDOM.render(<PictureChoiceApp />, document.getElementById("app"));
