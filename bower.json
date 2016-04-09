@@ -7,6 +7,7 @@
         "jquery": "1.11.x",
         "jplayer": "2.9.2",
         "bootstrap": "^3.3.4",
-        "font-awesome": "4.3.x"
+        "font-awesome": "4.3.x",
+        "shuffle-array": "pazguille/shuffle-array#bd67edb"
     }
 }
